@@ -1,4 +1,25 @@
+@font-face {
+  font-family: 'blender-pro-bold';
+  src: url(../fonts/BlenderPro-Bold.ttf) format('truetype');
+}
+
+
+@font-face {
+  font-family: 'blender-pro-heavey';
+  src: url(../fonts/BlenderPro-Heavy.ttf) format('truetype');
+}
+
+.font-blender-bold{
+    font-family: 'blender-pro-bold';
+}
+.font-blender-heavey{
+    font-family: 'blender-pro-heavey';
+}
+.font-trade-gothic{
+ font-family: 'Trade Gothic LT Std', sans-serif;                                               
+}
 .nav-menu-title{
+    font-family: 'blender-pro-bold';
     font-size: 20px;
     color: white;
     font-weight: 700;
@@ -7,7 +28,52 @@
 .custom-nav-color li>a{
     font-weight: 700;
     color: #F2771A;
+    font-family: 'blender-pro-bold';
 }
 .custom-nav-color{
+    font-family: 'blender-pro-bold';
    border-color: #F2771A;
+
 }
+.button-bannerr{
+    border: 1px solid #FF6600;
+    background-color: #FF6600;
+    color: white;
+    font-size: 20px;
+}
+.button-bannerr:hover{
+    background-color: transparent;
+    color: #FF6600;
+}
+
+
+
+/* media queries  */
+
+@media (min-width: 576px) and (max-width:767.98) {
+  .carousel-inner-height-custom, .carrousel-item-height-custom {
+    height: 100px;
+  }
+  .h-carousel-custom {
+    display: none;
+    
+  }
+  .p-carousel-custom{
+    font-size: 1rem;
+  }
+}
+@media (min-width: 768px) {
+ .carousel-inner-height-custom, .carrousel-item-height-custom {
+    height: 100vh;
+  }
+  .h-carousel-custom {
+    display: block;
+    font-size: 1.5rem;
+  }
+   .p-carousel-custom{
+    font-size: 5rem;
+  }
+}
+
+
+
