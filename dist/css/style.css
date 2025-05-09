@@ -1,0 +1,12 @@
+.nav-menu-title{
+    color: white;
+    font-weight: 700;
+}
+
+.custom-nav-color li>a{
+    font-weight: 700;
+    color: #F2771A;
+}
+.custom-nav-color{
+   border-color: #F2771A;
+}
