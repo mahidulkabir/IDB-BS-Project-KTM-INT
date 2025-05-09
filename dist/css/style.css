@@ -50,7 +50,7 @@
 
 /* media queries  */
 
-@media (min-width: 576px) and (max-width:767.98) {
+@media (min-width: 176px) and (max-width:993.98) {
   .carousel-inner-height-custom, .carrousel-item-height-custom {
     height: 100px;
   }
@@ -60,9 +60,12 @@
   }
   .p-carousel-custom{
     font-size: 1rem;
+     padding-top: 10px;
+  
   }
+  
 }
-@media (min-width: 768px) {
+@media (min-width: 994px) {
  .carousel-inner-height-custom, .carrousel-item-height-custom {
     height: 100vh;
   }
@@ -72,7 +75,8 @@
   }
    .p-carousel-custom{
     font-size: 5rem;
-  }
+   
+}
 }
 
 
