@@ -1,3 +1,4 @@
+/* FONT SECTION STYLES  */
 @font-face {
   font-family: 'blender-pro-bold';
   src: url(../fonts/BlenderPro-Bold.ttf) format('truetype');
@@ -18,6 +19,9 @@
 .font-trade-gothic{
  font-family: 'Trade Gothic LT Std', sans-serif;                                               
 }
+
+
+/* NAV MENU STYLES  */
 .nav-menu-title{
     font-family: 'blender-pro-bold';
     font-size: 20px;
@@ -46,7 +50,13 @@
     color: #FF6600;
 }
 
-
+/* under banner logo sections  */
+.under-banner-icons{
+  color: gray;
+}
+.under-banner-container:hover .under-banner-icons{
+  color: #FF6600;
+}
 
 /* media queries  */
 
