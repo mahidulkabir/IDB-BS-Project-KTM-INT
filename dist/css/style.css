@@ -57,6 +57,31 @@
 .under-banner-container:hover .under-banner-icons{
   color: #FF6600;
 }
+/* newly launch section styles  */
+.new-lnch-title-custom{
+font-weight: 800;
+}
+.new-lnch-p-custom{
+color: #FF6600;
+font-weight: 500;
+font-size: 12px !important;
+}
+.new-lnch-btn-custom{
+  font-weight: 800;
+  background-color: #FF6600;
+  border-radius: 0;
+  color: white;
+}
+.new-lnch-btn-custom:hover{
+  background-color: transparent !important; 
+  color: #FF6600; 
+  border: 1px solid #FF6600;
+}
+.card-indv-container-custom:hover{
+
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
 
 /* media queries  */
 
