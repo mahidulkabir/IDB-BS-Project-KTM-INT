@@ -83,6 +83,16 @@ font-size: 12px !important;
 }
 
 
+/* discover more section styles */
+.d-more-pic-custom{
+  border-radius: 0;
+}
+
+
+
+
+
+
 /* media queries  */
 
 @media (min-width: 176px) and (max-width:993.98) {
