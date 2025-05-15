@@ -88,7 +88,7 @@ font-size: 12px !important;
   border-radius: 0;
 }
 
-
+/* warrenty section  */
 
 
 
@@ -112,14 +112,14 @@ font-size: 12px !important;
     font-size: 1rem;
   }
   .warenty-custom-text2{
-    font-size: 2rem;
+    font-size: 1rem !important;
   }
   .warenty-custom-position{
-    position: absolute;
-    top:-20px;
-    right:50px;
+    position: relative;
   }
-  
+  .aaa{
+    color: #000000;
+  }
 }
 @media (min-width: 994px) {
  .carousel-inner-height-custom, .carrousel-item-height-custom {
@@ -140,9 +140,13 @@ font-size: 12px !important;
     font-size: 4rem;
   }
   .warenty-custom-position{
+    text-align: right;
     position: absolute;
     top:150px;
     right:50px;
+  }
+  .aaa{
+    color: #ffffff;
   }
 }
 
