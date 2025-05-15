@@ -108,6 +108,17 @@ font-size: 12px !important;
      padding-top: 10px;
   
   }
+  .warenty-custom-text1{
+    font-size: 1rem;
+  }
+  .warenty-custom-text2{
+    font-size: 2rem;
+  }
+  .warenty-custom-position{
+    position: absolute;
+    top:-20px;
+    right:50px;
+  }
   
 }
 @media (min-width: 994px) {
@@ -122,6 +133,17 @@ font-size: 12px !important;
     font-size: 5rem;
    
 }
+ .warenty-custom-text1{
+    font-size: 2rem;
+  }
+  .warenty-custom-text2{
+    font-size: 4rem;
+  }
+  .warenty-custom-position{
+    position: absolute;
+    top:150px;
+    right:50px;
+  }
 }
 
 
