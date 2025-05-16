@@ -90,8 +90,19 @@ font-size: 12px !important;
 
 /* warrenty section  */
 
+/* parts and wear section  */
 
-
+.parts-wear-container:hover .parts-wear-custom,
+.parts-wear-container:hover .parts-wear-custom1 {
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+.parts-wear-custom,
+.parts-wear-custom1 {
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
 
 /* media queries  */
 
