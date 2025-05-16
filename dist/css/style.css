@@ -129,7 +129,7 @@ font-size: 12px !important;
     position: relative;
   }
   .aaa{
-    color: #000000;
+    color: #000000 !important;
   }
 }
 @media (min-width: 994px) {
@@ -157,7 +157,7 @@ font-size: 12px !important;
     right:50px;
   }
   .aaa{
-    color: #ffffff;
+    color: #ffffff !important;
   }
 }
 
