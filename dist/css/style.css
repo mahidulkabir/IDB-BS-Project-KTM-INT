@@ -104,6 +104,25 @@ font-size: 12px !important;
   transition: opacity 0.3s ease;
 }
 
+
+/* newes section styles  */
+.btn-news-custom{
+  border: 1px solid #FF6600;
+  border-radius: 0;
+  background-color: #FF6600;
+  color: #ffffff;
+}
+.btn-news-custom:hover{
+  background-color: transparent;
+  color: #FF6600;
+  border: 1px solid #FF6600;
+}
+.news-border-custom{
+  border: none !important;
+}
+
+
+
 /* media queries  */
 
 @media (min-width: 176px) and (max-width:993.98) {
