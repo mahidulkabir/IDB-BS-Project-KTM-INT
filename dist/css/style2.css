@@ -1,0 +1,200 @@
+/* FONT SECTION STYLES  */
+@font-face {
+    font-family: 'blender-pro-bold';
+    src: url(../fonts/BlenderPro-Bold.ttf) format('truetype');
+  }
+  
+  
+  @font-face {
+    font-family: 'blender-pro-heavey';
+    src: url(../fonts/BlenderPro-Heavy.ttf) format('truetype');
+  }
+  
+  .font-blender-bold{
+      font-family: 'blender-pro-bold';
+  }
+  .font-blender-heavey{
+      font-family: 'blender-pro-heavey';
+  }
+  .font-trade-gothic{
+   font-family: 'Trade Gothic LT Std', sans-serif;                                               
+  }
+  
+  
+  /* NAV MENU STYLES  */
+  .nav-menu-title{
+      font-family: 'blender-pro-bold';
+      font-size: 20px;
+      color: white;
+      font-weight: 700;
+  }
+  
+  .custom-nav-color li>a{
+      font-weight: 700;
+      color: #F2771A;
+      font-family: 'blender-pro-bold';
+  }
+  .custom-nav-color{
+      font-family: 'blender-pro-bold';
+     border-color: #F2771A;
+  
+  }
+  .button-bannerr{
+      border: 1px solid #FF6600;
+      background-color: #FF6600;
+      color: white;
+      font-size: 20px;
+  }
+  .button-bannerr:hover{
+      background-color: transparent;
+      color: #FF6600;
+  }
+  
+  /* under banner logo sections  */
+  .under-banner-icons{
+    color: gray;
+  }
+  .under-banner-container:hover .under-banner-icons{
+    color: #FF6600;
+  }
+  /* newly launch section styles  */
+  .new-lnch-title-custom{
+  font-weight: 800;
+  }
+  .new-lnch-p-custom{
+  color: #FF6600;
+  font-weight: 500;
+  font-size: 12px !important;
+  }
+  .new-lnch-btn-custom{
+    font-weight: 800;
+    background-color: #FF6600;
+    border-radius: 0;
+    color: white;
+  }
+  .new-lnch-btn-custom:hover{
+    background-color: transparent !important; 
+    color: #FF6600; 
+    border: 1px solid #FF6600;
+  }
+  .card-indv-container-custom:hover{
+  
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+  
+  
+  /* discover more section styles */
+  .d-more-pic-custom{
+    border-radius: 0;
+  }
+  
+  /* warrenty section  */
+  
+  /* parts and wear section  */
+  
+  .parts-wear-container:hover .parts-wear-custom,
+  .parts-wear-container:hover .parts-wear-custom1 {
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+  }
+  .parts-wear-custom,
+  .parts-wear-custom1 {
+    opacity: 1;
+    transition: opacity 0.3s ease;
+  }
+  
+  
+  /* newes section styles  */
+  .btn-news-custom{
+    border: 1px solid #FF6600;
+    border-radius: 0;
+    background-color: #FF6600;
+    color: #ffffff;
+  }
+  .btn-news-custom:hover{
+    background-color: transparent;
+    color: #FF6600;
+    border: 1px solid #FF6600;
+  }
+  .news-border-custom{
+    border: none !important;
+  }
+  
+  
+  /* card option  */
+.card {
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-img-top {
+    height: 400px;
+    object-fit: cover;
+  }
+  
+  
+  /* media queries  */
+  
+  @media (min-width: 176px) and (max-width:993.98) {
+    .carousel-inner-height-custom, .carrousel-item-height-custom {
+      height: 100px;
+    }
+    .h-carousel-custom {
+      display: none;
+      
+    }
+    .p-carousel-custom{
+      font-size: 1rem;
+       padding-top: 10px;
+    
+    }
+    .warenty-custom-text1{
+      font-size: 1rem;
+    }
+    .warenty-custom-text2{
+      font-size: 1rem !important;
+    }
+    .warenty-custom-position{
+      position: relative;
+    }
+    .aaa{
+      color: #000000 !important;
+    }
+  }
+  @media (min-width: 994px) {
+   .carousel-inner-height-custom, .carrousel-item-height-custom {
+      height: 100vh;
+    }
+    .h-carousel-custom {
+      display: block;
+      font-size: 1.5rem;
+    }
+     .p-carousel-custom{
+      font-size: 5rem;
+     
+  }
+   .warenty-custom-text1{
+      font-size: 2rem;
+    }
+    .warenty-custom-text2{
+      font-size: 4rem;
+    }
+    .warenty-custom-position{
+      text-align: right;
+      position: absolute;
+      top:150px;
+      right:50px;
+    }
+    .aaa{
+      color: #ffffff !important;
+    }
+  }
+  
+  
+  
+  

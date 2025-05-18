@@ -120,6 +120,16 @@ font-size: 12px !important;
 .news-border-custom{
   border: none !important;
 }
+/* card option  */
+.card {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
+}
+
 
 
 
