@@ -136,7 +136,25 @@
     height: 400px;
     object-fit: cover;
   }
-  
+  /* pulsing button styles  */
+@keyframes pulse {
+  0% {
+      box-shadow: 0 0 0 0 rgba(243, 159, 2, 0.726);
+  }
+
+  70% {
+      box-shadow: 0 0 0 10px rgba(0, 123, 255, 0);
+  }
+
+  100% {
+      box-shadow: 0 0 0 0 rgba(0, 123, 255, 0);
+  }
+}
+
+.btn-pulse {
+  animation: pulse 1.5s infinite;
+}
+
   
   /* media queries  */
   
